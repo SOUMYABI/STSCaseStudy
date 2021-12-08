@@ -1,0 +1,16 @@
+server:
+  port: 8002
+  
+zuul:
+    routes:
+     Manager:
+      url: http://localhost:8009
+     Owner:
+      url: http://localhost:8099
+     Receptionist:
+      url: http://localhost:8006
+    
+     
+       
+
+     
